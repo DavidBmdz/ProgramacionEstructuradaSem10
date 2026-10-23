@@ -1,5 +1,5 @@
 def crear_nodo(dato):
-    return {"Dato ": dato, "Siguiente": None}
+    return {"dato": dato, "siguiente": None}
 
 def insertar_inicio(cabeza, dato):
     nuevo = crear_nodo(dato)
