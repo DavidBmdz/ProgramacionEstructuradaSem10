@@ -1,0 +1,10 @@
+PRÁCTICA: LISTAS DOBLEMENTE ENLAZADAS
+Actividades registradas: 7/7
+concept, predict, lab, r0, r1, r2, quiz
+
+Reflexión:
+https://github.com/DavidBmdz/ProgramacionEstructuradaSem10.git
+
+#Lo más difícil al modificar los enlaces fue mantener el orden correcto de las asignaciones y gestionar los casos límite, ya que al cambiar un puntero antes de tiempo es muy fácil perder la referencia al resto de nodos y romper la cadena; para solucionarlo, me aseguré de conectar primero el nuevo nodo a sus vecinos antes de actualizar las referencias existentes, añadiendo condicionales para actualizar la cabeza o la cola cuando corresponde y verificando todo recorriendo la lista hacia adelante y hacia atrás.
+
+Nota: progreso autodeclarado, no prueba de ejecución Python.
